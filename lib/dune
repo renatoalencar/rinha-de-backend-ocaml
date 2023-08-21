@@ -1,0 +1,4 @@
+(library
+ (name backend)
+ (libraries pgocaml dream yojson ppx_deriving_yojson.runtime)
+ (preprocess (pps ppx_deriving_yojson pgocaml_ppx)))
